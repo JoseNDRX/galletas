@@ -1,0 +1,25 @@
+.cardSong{
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50%;
+  font-size: 0.7em;
+}
+.cardSong__image{
+  width: 20%;
+  height: auto;
+}
+.cardSong__title{
+  color: red;
+  opacity: 1.5;
+}
+.cardSong__list{
+  list-style: none;
+  text-align: left;
+}
+.cardSong__list--list{
+  font-size: 12px;
+  color: black
+}
+span{
+  font-weight: 700;
+}
