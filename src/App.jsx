@@ -1,14 +1,13 @@
 
 import './App.css'
+import Bulb from './Bulb'
 
 
 function App() {
   
 
   return (
-    <div>
-    
-    </div>
+    <Bulb />
   )
 }
 
