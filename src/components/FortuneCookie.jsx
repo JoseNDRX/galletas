@@ -9,8 +9,7 @@ const FortuneCookie = ({ phraseData }) => {
       <div className="fortuneCooKiesContainer">
 
         <h2>{phraseData.phrase}</h2>
-        <h4>{phraseData.author}</h4>
-        
+
       </div>
         
       
