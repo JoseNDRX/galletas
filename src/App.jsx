@@ -16,7 +16,7 @@ function App() {
   const indexBgImg = Math.floor(Math.random() * 4) + 1
 
   return (
-    <div className="App" style={{ backgroundImage: `url(./public/fondo${indexBgImg}.jpg` }}>
+    <div className="App" style={{ backgroundImage: `url(/fondo${indexBgImg}.jpg` }}>
       <h1 className="title animate__animated animate__pulse">GALLETAS DE LA<br></br>FORTUNA</h1>
 
       <FortuneCookie
