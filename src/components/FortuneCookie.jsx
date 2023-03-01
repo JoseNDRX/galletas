@@ -8,7 +8,7 @@ const FortuneCookie = ({ phraseData }) => {
       
       <div className="fortuneCooKiesContainer animate__animated animate__bounce">
 
-        <h2>{phraseData.phrase}</h2>
+        <h2 className="box">{phraseData.phrase}</h2>
 
       </div>
         
