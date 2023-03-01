@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App" style={{ backgroundImage: `url(./public/fondo${indexBgImg}.jpg` }}>
-      <h1 className="title animate__pulse">GALLETAS DE LA<br></br>FORTUNA</h1>
+      <h1 className="title animate__animated animate__pulse">GALLETAS DE LA<br></br>FORTUNA</h1>
       <FortuneCookie
       phraseData = { phrases [index] }
       />
