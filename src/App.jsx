@@ -27,7 +27,7 @@ function App() {
       phraseData = { phrases [index] }
       />
 
-      <button className="button animate__pulse" onClick={ changePhrase }><i class='bx bx-shuffle'> Prueba otra vez!</i></button>
+      <button className="button animate__pulse" onClick={ changePhrase }><i class='bx bx-shuffle'><br></br>Prueba otra vez!</i></button>
 
     </div>
 
