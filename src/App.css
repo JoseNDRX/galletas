@@ -32,15 +32,18 @@
   text-shadow: 2px 2px 2px gray;
 
 }
-.button{   
+.button{
+  margin-top: 25px;   
   align-self: center;
-}
-button:hover{
-  animation: animate__pulse;
-  animation-duration: 2s;
-
+  font-size: 14px;
+  border-radius: 5px;
+  width: 180px;
+  box-shadow: 2px 2px 2px blueviolet;
+  border: 1px solid gray;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-weight: 600;
 }
 .bx{
   color: black;
-  font-size: 12px;
 }
