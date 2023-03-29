@@ -8,6 +8,52 @@
   height: 100vh;
   background-size: cover;
   align-items: center;
+  justify-content: center;    
+}
+.charactersList{
+  display: flex;
+  align-items: center;
   justify-content: center;
-    
+  flex-direction: column;
+}
+.detail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.residentCard{
+  width: 300px;
+  height: 480px;
+  margin-top: 5%;
+  background-color: rgb(221, 215, 215);
+  border-radius: 15px;
+  border: 1px solid #8EFF8B;
+}
+.card__image{
+  width: 298px;
+  height: 300px;
+  border-radius: 15px;
+}
+.card__status{
+  font-weight: bold;
+  font-size: 18px;
+  width: 150px;
+  height: 25px;
+  background-color: rgba(2, 10, 2, 0.8);
+  border: 1px solid #8EFF8B;  
+  text-align: center;
+  margin: auto;
+  color: white;
+  position: relative;
+  top: -50px;
+  border-radius: 8px;
+}
+li{  
+  list-style: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+h1{
+  text-align: center;
 }
